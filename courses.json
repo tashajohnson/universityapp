@@ -1,0 +1,34 @@
+{
+  "courses": 
+  [{
+    "id": "1",
+    "name": "Beginner Web Mastery",
+    "teacher": "Tasha"
+  },
+  {
+    "id": "2",
+    "name": "Cooking For Your Carnivore",
+    "teacher": "Gretchen"
+  },
+  {
+    "id": "3",
+    "name": "Safe Solo Traveling",
+    "teacher": "Neco"
+  },
+  {
+    "id": "4",
+    "name": "Life Without Limits",
+    "teacher": "Alayna"
+  },
+  {
+    "id": "5",
+    "name": "Artistic Expressions",
+    "teacher": "Arianna"
+  },
+  {
+    "id": "6",
+    "name": "Illuminating Creative Poetry",
+    "teacher": "Saige"
+  }
+
+]}

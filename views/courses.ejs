@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ./partials/head %>
+  </head>
+  <body>
+    <% include ./partials/navigation %>
+    <div class="callout">
+      <div class="text-vertical-center">
+        <h1>A list of our custom courses:</h1>
+      </div>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <th>Course Title</th>
+        <th>Teacher</th>
+        <th>Sign Up</th>
+      </thead>
+      <tbody>
+        <% courseData.courses.forEach( function(course) { %>
+        <tr>
+          <td><%= course.name %></td>
+          <td><%= course.teacher %></td>
+          <td><button class="btn btn-large btn-dark">Add To Plan</button></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <% include ./partials/scripts %>
+  </body>
+</html>
